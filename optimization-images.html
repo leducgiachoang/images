@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imgs/unnamed.ico">
+    <meta name="keywords"
+        content="hinh anh, wallpro, wallpro 4k, images, hinh nen, hình nền, hình HD, hinh anh 4k dành cho máy tính, hình nền chất lượng cao, hoàng hài hước, le duc giac hoang" />
+    <meta name="description"
+        content="Wallpro 4k là một trong những website cung cấp hình ảnh HD tốt nhất hiện nay. Bạn có thể tải những hình ảnh chất lượng cao hoàn toàn miễn phí." />
+    <meta name="author" content="Le Duc Giac Hoang" />
+    <title>Wallpro 4K - Một trong những trang web hình ảnh HD tốt nhất</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/optimization_img.css">
+</head>
+
+
+<body>
+    <div id='status'></div>
+    <div id='loader'></div>
+    <div class="box_img_all">
+        <header class="socal_media">
+            <div class="div_icon fb"><a href="https://www.facebook.com/leducgiachoang/"><i
+                        class="fab fa-facebook-f"></i></a></i></div>
+            <div class="div_icon ins"><a href="https://www.instagram.com/leducgiachoang/"><i
+                        class="fab fa-instagram"></i></a></i></div>
+            <div class="div_icon ytb"><a href="https://www.youtube.com/channel/UCaHBN961aB752fuJqzGNWHg"><i
+                        class="fab fa-youtube"></i></a></i></div>
+        </header>
+        <div class="box_by">
+            by Lê Đức Giác Hoàng <br>
+            0369.203.989
+        </div>
+        <div class="box_img">
+            <img id="image" src="imgs/hinh1.jpg">
+        </div>
+        <div class="box_search">
+            <a style="text-decoration: none;" href="/">
+                <h2 class="logo_web">WALLPRO 4K <i style="
+                   font-size: 26px;
+    background: -webkit-linear-gradient(#e91e63, #d45959);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 2px white;
+            "> - Optimization</i></h2>
+            </a>
+
+            <div class="file-upload">
+
+
+                <select id="lv_Optimal">
+                    <option value="10">10%</option>
+                    <option value="20">20%</option>
+                    <option value="30">30%</option>
+                    <option value="40">40%</option>
+                    <option value="50">50%</option>
+                    <option value="60">60%</option>
+                    <option value="70">70%</option>
+                    <option value="80">80%</option>
+                    <option value="90">90%</option>
+                    <option value="95">95%</option>
+                </select>
+
+
+
+                <div class="image-upload-wrap">
+                    <input id="inpImg" class="file-upload-input" type='file' multiple name="img[]"
+                        onchange="readURL(this);" accept="image/*" />
+                    <div class="drag-text">
+                        <h3>Drag and drop a file or select add Image</h3>
+                    </div>
+                </div>
+
+                <div class="file-upload-content">
+
+                    <div class="card_img">
+                        <div class="hdev_thanh_loading">
+                            <div class="box_item_img">
+                                <div class="item_1"><strong>Size</strong> </div>
+                                <div class="item_2"><strong>Dest size </strong> </div>
+                                <div class="item_3"><strong>Percent</strong></div>
+                                <div class="item_4"><strong>Action</strong></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="container_img" class="container box_search_ming"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<script src="js/optimization_img.js"></script>
+
+</body>
+
+</html>
