@@ -207,7 +207,6 @@ body {
 
 .box_search {
     position: absolute;
-    width: 730px
 }
 
 .box_search>form {
@@ -454,7 +453,6 @@ h2.logo_web {
     font-family: sans-serif;
     letter-spacing: 3px;
     text-shadow: 2px 2px 10px #000;
-    text-align: center;
 }
 
 p.texxt_lofo {

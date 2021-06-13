@@ -20,8 +20,28 @@
 <body id="boddy">
     <div id='status'></div>
     <div id='loader'></div>
-    <nav><a href="optimization-images.html"></a></nav>
+    
     <div class="box_img_all">
+        <style>
+            .nav_menu{
+                display: flex;
+                position: absolute;
+            }
+            .nav_menu > a > div{
+                margin: 20px 0;
+                color: white;
+                text-transform: uppercase;
+                font-size: 18px;
+                font-weight: 700;
+                margin-right: 40px;
+                font-family: monospace;
+                text-shadow: 0px 0px 6px black;
+            }
+            .nav_menu > a{
+                text-decoration: none;
+            }
+        </style>
+        
         <header class="socal_media">
             <div class="div_icon fb"><a href="https://www.facebook.com/leducgiachoang/"><i class="fab fa-facebook-f"></i></a></i></div>
             <div class="div_icon ins"><a href="https://www.instagram.com/leducgiachoang/"><i class="fab fa-instagram"></i></a></i></div>
@@ -40,6 +60,11 @@
                 <input required id="text_search" type="search" placeholder="Từ khóa tìm kiếm hình ảnh">
                 <button id="button_search" helo-g="container_img" type="submit"><b>Tìm Kiếm</b></button>
             </form>
+            <nav class="nav_menu">
+                <a href="/"><div>Home</div></a>
+                <a href="optimization-images.html"><div>Optimization</div></a>
+               
+            </nav>
         </div>
     </div>
     <div id="container_img" class="container box_search_ming">
